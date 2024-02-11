@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    border: 1px solid;
+    border-radius: 15px;
+    word-spacing: 5px;
+    font-size: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    border: 1px solid;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 2rem;
+    visibility: hidden;
+}
+
+.flex-container, .move-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.user, .cpu {
+    border: 1px solid;
+    min-height: 300px;
+    min-width: 300px;
+    background-color: whitesmoke;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.move-container {
+    margin-top: 20px;
+}
+
+.move-container p {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.play p {
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 40%;
+}
